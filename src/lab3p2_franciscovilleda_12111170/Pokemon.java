@@ -3,6 +3,7 @@ package lab3p2_franciscovilleda_12111170;
 public class Pokemon {
     private String nombre;
     private int attack, health;
+    private String tipo;
 
     public Pokemon() {
     }

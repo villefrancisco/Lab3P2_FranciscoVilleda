@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Gimnasio {
     private String nombre, ciudad;
-    private Maestro lider;
+    private Entrenador lider;
     private int win, lose, dinero;
     ArrayList<Entrenador> trainers = new ArrayList();
 
     public Gimnasio() {
     }
 
-    public Gimnasio(String nombre, String ciudad, Maestro lider, int win, int lose, int dinero) {
+    public Gimnasio(String nombre, String ciudad, Entrenador lider, int win, int lose, int dinero) {
         this.nombre = nombre;
         this.ciudad = ciudad;
         this.lider = lider;
@@ -36,11 +36,11 @@ public class Gimnasio {
         this.ciudad = ciudad;
     }
 
-    public Maestro getLider() {
+    public Entrenador getLider() {
         return lider;
     }
 
-    public void setLider(Maestro lider) {
+    public void setLider(Entrenador lider) {
         this.lider = lider;
     }
 
